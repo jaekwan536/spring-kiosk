@@ -11,4 +11,10 @@ public class MenuController {
 		
 		return "top";
 	}
+	
+	@RequestMapping("/main")
+	public String main() { 
+		
+		return "main";
+	}
 }
